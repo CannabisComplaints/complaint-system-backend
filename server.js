@@ -11,7 +11,7 @@ app.use(express.json());
 
 // MongoDB Connection (replace with your copied string)
 let gfs;
-const conn = mongoose.createConnection('mongodb+srv://<username>:<password>@cannabiscomplaintsnew.mongodb.net/cannabis_complaints?retryWrites=true&w=majority', {
+const conn = mongoose.createConnection('mongodb+srv://Quality:CustomerComplaints420!@cannabiscomplaints.mongodb.net/cannabis_complaints?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
